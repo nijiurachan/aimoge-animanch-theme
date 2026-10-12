@@ -26,7 +26,23 @@ Firefox内でTampermonkeyを追加し、同じFirefoxで上記のインストー
 Chrome用の実行許可設定はFirefoxでは不要です。
 
 スマートフォンの画面は仮想Androidで確認していますが、Android版FirefoxとTampermonkeyの組み合わせでの本テーマの実動作は未確認です。
-iPhone・iPadでの本テーマの実動作も未確認です。
+
+### iPhoneで使う場合
+
+iPhone・iPadでは、Safari用の[Tampermonkeyアプリ](https://apps.apple.com/jp/app/tampermonkey/id6738342400)を使って導入します。
+アプリは有料です。購入前にApp Storeで価格と対応OSを確認してください。本テーマのスクリプト自体は無料です。
+以下は導入方法の案内であり、iPhone・iPadでの本テーマの実動作は未確認です。
+
+1. App Storeから「Tampermonkey」をインストールします。開発元が「Jan Biniok」であることを確認し、インストール後にアプリを一度開きます。
+2. iPhoneの「設定」で「アプリ」「Safari」「機能拡張」の順に開き、「Tampermonkey」の「機能拡張を許可」をオンにします。「アプリ」がない場合は、設定内で「Safari」を探してください。
+3. Safariで[スクリプトのインストールリンク](https://raw.githubusercontent.com/nijiurachan/aimoge-animanch-theme/main/aimoge-animanch-theme.user.js)を開きます。GitHubやSNSのアプリ内ブラウザーで開いた場合は、リンクをコピーしてSafariのアドレス欄に貼り付けてください。
+4. Tampermonkeyからサイトへのアクセス許可を求められたら、インストール元の `raw.githubusercontent.com` へのアクセスを許可します。
+5. 確認画面でスクリプト名「あいもげ総合カタログ あにまん風UI」と作者「official-aimg」を確認し、「インストール」を押します。コードだけが表示される場合は、Safariのアドレス欄のページメニューから「Tampermonkey」を開き、下の「インストール画面が出ないとき」にある手動追加を行ってください。
+6. 同じSafariで[あいもげの総合カタログ](https://nijiurachan.net/mix/)を開きます。Tampermonkeyの `nijiurachan.net` へのアクセスを許可し、ページを再読み込みします。
+
+Tampermonkeyのメニューが見つからない場合は、Safariのページメニューにある「機能拡張を管理」で有効か確認してください。
+Safariのプロファイルを使い分けている場合は、あいもげを開くプロファイルでも有効にします。
+設定の詳しい説明は[Apple公式のSafari機能拡張ガイド](https://support.apple.com/en-ie/guide/iphone/iphab0432bf6/ios)、配布元は[Tampermonkey公式のSafari向けページ](https://www.tampermonkey.net/index.php?browser=safari&locale=ja)で確認できます。
 
 ### インストール画面が出ないとき
 
