@@ -478,7 +478,7 @@ function createAnimanchCatalogSortAdapter(pageWindow, options) {
   --color-accent: #104cd0;
   --color-accent-foreground: #fff;
   --color-border: #ccc;
-  --color-card: rgba(255, 255, 255, 0.8);
+  --color-card: rgba(255, 255, 255, 0.95);
   --color-card-foreground: #444;
 }
 
